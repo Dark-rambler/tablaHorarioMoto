@@ -1,0 +1,33 @@
+.tarjeta{
+    width: 11vw;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    border-radius: 20px;
+    margin: 5px;
+    transition: .5s;
+   
+}
+.tarjetaOcupada{
+    width: 11vw;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 20px;
+    margin: 5px;
+    color: aliceblue;
+    transition: .5s;
+}
+
+@media (max-width: 1297px) {
+    .tarjeta {
+      display: none;
+    }
+    .tarjetaOcupada{
+        display: none;
+    }
+  }

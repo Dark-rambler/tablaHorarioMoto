@@ -1,0 +1,34 @@
+.hora{
+    color: aliceblue;
+    width: 11vw;
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.horaRojo{
+    color: aliceblue;
+    width: 11vw;
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 20px;
+}
+@media (max-width: 1297px) {
+  .hora{
+    flex-direction: row;
+    width: 18rem;
+    padding-left: 8px;
+    justify-content: space-between;
+  }
+  .horaRojo{
+    flex-direction: row;
+    width: 18rem;
+    padding-left: 8px;
+    justify-content: space-between;
+  }
+  }

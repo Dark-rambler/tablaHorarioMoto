@@ -1,0 +1,30 @@
+.fila{
+    height: 10.6vh;
+    border: solid 1px azure;
+    border-radius: 20px;
+    display: flex;
+    
+}
+.boton{
+    border-radius: 20px;
+    min-width: 7.5rem;
+    font-size: larger;
+    background-color: gray;
+    margin: 6px;
+    transition: .5s;
+
+}
+.boton:hover{
+    background-color: black;
+    color: azure;
+    transition: .5s;
+    border: solid 2px azure;
+}
+.liberar:hover{
+    background-color: green;
+    color: azure;
+    transition: .5s;
+}
+@media (min-width: 1297px) {
+   .boton{display: none;}
+  }

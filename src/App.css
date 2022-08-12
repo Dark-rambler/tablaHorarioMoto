@@ -1,0 +1,20 @@
+.cabecera{
+  background-color: rgb(51, 51, 150);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+}
+.App{
+  border: 9px solid rgb(51, 51, 150)  ;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: rgb(51, 51, 150) ;
+}
+@media (max-width: 1297px) {
+  .App{
+    min-width:60vw;
+  }
+ }
